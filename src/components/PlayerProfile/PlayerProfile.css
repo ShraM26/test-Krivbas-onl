@@ -1,0 +1,44 @@
+.player-profile {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.paid {
+    color: green;
+}
+
+.status.unpaid {
+    color: red;
+}
+
+.attendance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.attendance-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.attendance-button.attended {
+    background-color: lightgreen;
+}
+
+.attendance-button.not-attended {
+    background-color: lightcoral;
+}

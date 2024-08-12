@@ -1,0 +1,94 @@
+/* Определение переменных для цветов */
+:root {
+  --red-color: #FF0000;
+  --black-color: #000000;
+  --white-color: #FFFFFF;
+  
+}
+#root {
+  padding: 20px;
+}
+/* Общие стили для сайта */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/src/img/Registration/regis.jpg');
+background-size: cover;
+    /* Полностью вписывает изображение */
+    background-repeat: no-repeat;
+    /* Отключает повтор изображения */
+
+  color: var(--black-color);
+  margin: 0;
+  padding: 0;
+
+}
+body::before {
+  content: '';
+  position: absolute;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 999;
+  background: linear-gradient(to bottom, rgba(130, 120, 120, 0.456), rgba(140, 16, 16, 0.497));
+
+}
+
+/* Стили для заголовков */
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* Стили для кнопок */
+
+
+
+/* Стили для ссылок */
+a {
+  color: var(--red-color);
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: var(--black-color);
+  
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+button {
+  margin: 2px;
+  padding: 4px 8px;
+  border: none;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #4caf50;
+  /* Зеленый для присутствия */
+  color: white;
+}
+
+button:not(.active) {
+
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}

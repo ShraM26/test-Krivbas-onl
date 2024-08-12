@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: hsla(0, 0%, 20%, 0.746);
+    color: #fff;
+    z-index: 1200;
+    position: fixed;
+    width: 1600px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.backButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 3px solid #ffffff;
+}
+
+.backButton:hover {
+    background-color: #1c1d1e;
+}
+
+.socialLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.icon:hover {
+    color: #1c1d1e;
+    /* Цвет иконки при наведении */
+}
+
+.cntInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 120px;
+}
+
+.contactItem {
+    color: #fff;
+}
+.contactItem:hover {
+    color: #1c1d1e;
+}
