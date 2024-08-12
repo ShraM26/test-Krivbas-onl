@@ -3,12 +3,12 @@ import CourseBlock from '../CourseBlock/CourseBlock';
 
 function MainPage() {
   const courses = [
-    { id: 1, title: 'Основи футболу', price: '' },
-    { id: 2, title: 'Тренування по позиціях ', price: '' },
-    { id: 3, title: 'Психологія гравця', price: '' },
-    { id: 4, title: 'Харчування та відновлення', price: '' },
-    { id: 5, title: 'Техничнi навички', price: '' },
-    { id: 6, title: 'Правила Гри', price: '' },
+    { id: 1, title: 'Основи футболу' },
+    { id: 2, title: 'Тренування по позиціях ' },
+    { id: 3, title: 'Психологія гравця' },
+    { id: 4, title: 'Харчування та відновлення'},
+    { id: 5, title: 'Техничнi навички' },
+    { id: 6, title: 'Правила Гри'},
    
     // Добавьте больше курсов здесь
   ];
@@ -19,6 +19,7 @@ function MainPage() {
       <div className={styles.courseList}>
         {courses.map((course) => (
           <CourseBlock key={course.id} course={course} />
+         
         ))}
       </div>
     </div>

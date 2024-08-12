@@ -11,7 +11,6 @@ function CourseBlock({ course }) {
   return (
     <div className={styles.block} onClick={handleClick}>
       <h3>{course.title}</h3>
-      <p>{course.price}</p>
     </div>
   );
 }
