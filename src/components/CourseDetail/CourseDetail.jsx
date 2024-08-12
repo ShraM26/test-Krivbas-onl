@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 function CourseDetail() {
   const { id } = useParams();
-  
+  console.log(id);
   // Здесь вы могли бы загрузить данные курса из API или использовать статические данные
   const course = {
     title: 'Основи футболу',
